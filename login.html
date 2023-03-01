@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+.login{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+#kn{
+    background-color: green;
+    color: white;
+    border: 0;
+}
+.mnb{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    color: red;
+}
+span{
+    color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    background-color: rgb(25, 155, 58);
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+.imo{
+    background-color: green;
+    margin-top: 1em;
+    width: 33vw;
+    text-align: center;
+    border-radius: 15%;
+}
+@media screen and (max-width: 576px){
+    .imo{
+        width:90vw ;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="login">
+
+
+<section class="mnb">
+<form class="login">
+    <h3>please login</h3>
+
+    <input type="email" placeholder="your email" required>
+    <input type="password" placeholder="your password" required>
+   <a class="imo" href="index.html"><input type="submit" value="LOGIN" id="kn"></a> 
+    <p>don't have an account?</p>   <a href="reg.html">  <span>register</span></a> 
+</form></section>
+</div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
